@@ -1,4 +1,4 @@
-@baseUrl = http://127.0.0.1:3333/api
+@baseUrl = https://i0rtv.sse.codesandbox.io/api
 @contentType = application/json
 
 ### lists place
@@ -10,7 +10,7 @@ Content-Type: {{contentType}}
 
 {
     "name": "aeon",
-    "description": "store tangerang",
+    "description": "tangerang",
     "location": {
         "lat": "-6.3047146",
         "long": "106.6439975"
@@ -25,3 +25,7 @@ Content-Type: {{contentType}}
     "name": "smb",
     "description": "bekasi"
 }
+
+### delete place
+DELETE {{baseUrl}}/place/1 HTTP/1.1
+Content-Type: {{contentType}}
