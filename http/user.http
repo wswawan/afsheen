@@ -1,6 +1,6 @@
-@baseUrl = https://i0rtv.sse.codesandbox.io/api
+@baseUrl = https://afsheen.herokuapp.com/api
 @contentType = application/json
-@authorization = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsImlhdCI6MTU3MjU0NjUwNH0.a2spZoT_N5FGv8SgkLAljV0sOgzi3RLykuZ6i5NPb6g
+@authorization = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsImlhdCI6MTU3MjU3MjcyMH0.4yFgCYku76ye6AogW28yxNtnjM5TIMmbetplhBSI2ck
 
 ###login
 POST {{baseUrl}}/auth/login HTTP/1.1
@@ -28,7 +28,7 @@ Content-Type: {{contentType}}
 # Authorization: {{authorization}}
 
 {
-    "email": "yuni@outlook.com",
+    "email": "ardi@outlook.com",
     "password": "123456"
 }
 
@@ -40,7 +40,7 @@ Authorization: {{authorization}}
 {
     "fullname": "yuniestri imanti",
     "address": "jakarta",
-    "birthdate": "23-10-1991"
+    "birthdate": "1991-06-20"
 }
 
 ### update user

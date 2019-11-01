@@ -8,4 +8,7 @@ tmp
 .env
 
 # The development sqlite file
-# database/*.sqlite
+database/*.sqlite
+
+# REST Client
+http

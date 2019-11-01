@@ -1,4 +1,4 @@
-@baseUrl = https://i0rtv.sse.codesandbox.io/api
+@baseUrl = https://afsheen.herokuapp.com/api
 @contentType = application/json
 
 ### lists place
@@ -9,8 +9,8 @@ POST {{baseUrl}}/place/create HTTP/1.1
 Content-Type: {{contentType}}
 
 {
-    "name": "aeon",
-    "description": "tangerang",
+    "name": "office",
+    "description": "ho",
     "location": {
         "lat": "-6.3047146",
         "long": "106.6439975"
