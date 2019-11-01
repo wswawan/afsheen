@@ -11,4 +11,4 @@ tmp
 database/*.sqlite
 
 # REST Client
-http
+rest_client
