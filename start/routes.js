@@ -31,6 +31,6 @@ Route.group(() => {
   Route.post('place/create', 'PlaceController.create')
   Route.get('places', 'PlaceController.index')
   Route.patch('place/:id', 'PlaceController.update')
-  Route.delete('place/:id', 'PlaceController.delete')
+  Route.delete('place/:id', 'PlaceController.destroy')
 })
 .prefix('api');
