@@ -28,7 +28,7 @@ class UserController {
   }
 
   async lists() {
-    return await User.query().with('profile').fetch()
+    return await Profile.all()
   }
 
   async create({ request, auth }) {
