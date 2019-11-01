@@ -8,20 +8,10 @@ class Profile extends Model {
         return this.belongsTo('App/Models/User')
     }
 
-    static formatDates(field, value){
-        if(field === 'birthdate'){
-            return value.format('YYYY-MM-DD')
+    static get casts(){
+        return {
+            birthdate: 'date'
         }
-
-        return super.formatDates(field, value)
-    }
-
-    static castDates(field, value){
-        if(field === 'birthdate'){
-            return `${value.fromNow(true)} old`
-        }
-
-        return super.formatDates(field, value)
     }
 
 }

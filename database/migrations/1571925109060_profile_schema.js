@@ -8,7 +8,7 @@ class ProfileSchema extends Schema {
     this.create('profiles', (table) => {
       table.increments()
       table.string('fullname')
-      table.date('birthdate', {useTz: false})
+      table.date('birthdate')
       table.string('address')
       table.integer('gender').unsigned()
       table.string('education')
