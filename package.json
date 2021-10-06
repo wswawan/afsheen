@@ -27,7 +27,7 @@
     "adonis-cast-attributes": "^1.0.0",
     "pg": "^7.12.1",
     "sqlite3": "^4.1.0",
-    "url-parse": "^1.4.7"
+    "url-parse": "^1.5.2"
   },
   "devDependencies": {},
   "autoload": {
